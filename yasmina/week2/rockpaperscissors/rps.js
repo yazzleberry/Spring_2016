@@ -16,6 +16,12 @@ while (letsplay == true){
 
 var useranswer = prompt("Pick either rock, paper, or scissors!");
 
+while (useranswer !== "rock" || "paper" || "scissors"){
+
+	var useranswer = prompt( " That answer is not valid! Try again.")
+	//if (useranswer === "rock"||"paper"||"scissors" ){break;}
+}
+
 alert("The computer is playing!");
 
 var computeranswer = rps[Math.floor(Math.random() * rps.length)];
