@@ -18,6 +18,22 @@ var useranswer = prompt("Pick either rock, paper, or scissors!");
 
 
 
+
+
+
+if (useranswer !== "rock"||"paper"|| "scissors") {
+
+	var useranswer = prompt("That's not a valid answer! Try again!")
+}
+
+
+
+
+
+
+
+
+
 alert("The computer is playing!");
 
 var computeranswer = rps[Math.floor(Math.random() * rps.length)];
